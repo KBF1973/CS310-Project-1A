@@ -177,7 +177,7 @@ public class TicTacToeModel{
     private boolean isMarkWin(Mark mark) {
 		
         boolean won = true;
-		System.out.println("test 1");
+		
         // Check the squares of the board to see if the specified mark is the winning mark
         //Check Columns
        for (int i = 0; i < width; i++) {//col
@@ -191,7 +191,7 @@ public class TicTacToeModel{
 			return true;	
 			}
         }
-		System.out.println("test 2");
+		
 		for(int i = 0; i < width;  i++){//col
 			won = true;
 			for(int j = 0; j < width; j++){//row
@@ -203,7 +203,7 @@ public class TicTacToeModel{
 				return true;
 			}
 		}
-		System.out.println("test 3");
+		
 		won = true;
 		for(int i = 0; i < width; i++){//covers 5x5 grid
 		
@@ -211,7 +211,7 @@ public class TicTacToeModel{
 			won = false;	
 			}
 		}
-		System.out.println("test 4");		
+			
 		if(won){
 		return true;	
 		}
