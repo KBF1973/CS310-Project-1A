@@ -23,26 +23,26 @@ public class TicTacToeController {
 
     }
 
-    public void controlModel() {
+   /*public void controlModel() {
         
-        /* Prompt player for next move using view's showNextMovePrompt() */
+       // Prompt player for next move using view's showNextMovePrompt()
         
-        view.showNextMovePrompt();
-        //just call methods to do those things. 
-        /* Receive and validate input, which should be read at the keyboard as
-           two integers, the row and the column (for example, "1 1" for the
-           center square of a 3 x 3 grid).  Make mark if input is valid, or show
-           error message using view's showInputError() if input is invalid. */
+       view.showNextMovePrompt();
+          /*call methods to do those things. 
+		Receive and validate input, which should be read at the keyboard as
+		two integers, the row and the column (for example, "1 1" for the
+		center square of a 3 x 3 grid).  Make mark if input is valid, or show
+		error message using view's showInputError() if input is invalid.*/
         
         
 			
-		int row = keyboard.nextInt();
+		/*int row = keyboard.nextInt();
 		int col = keyboard.nextInt();
 		if (!model.makeMark(row,col)) {
 			view.showInputError();
 		}
 
         
-    }
+    }*/
 
 }

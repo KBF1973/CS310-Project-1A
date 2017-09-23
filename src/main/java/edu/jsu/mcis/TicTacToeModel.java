@@ -80,9 +80,9 @@ public class TicTacToeModel{
 
 		for(int i = 0; i < width; i++){
 		
-			for(int k = 0; k < width; k++)
+			for(int j = 0; j < width; j++)
 			
-				grid[i][k] = Mark.EMPTY;
+				grid[i][j] = Mark.EMPTY;
 			
 		}
     }
